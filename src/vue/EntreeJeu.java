@@ -21,22 +21,6 @@ public class EntreeJeu extends JFrame {
 	private JTextField txtIp;
 
 	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					EntreeJeu frame = new EntreeJeu();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
 	 * Clic sur le bouton Start
 	 */
 	private void btnStart_clic() {
